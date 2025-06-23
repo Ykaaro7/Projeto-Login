@@ -108,8 +108,6 @@ div.campo > input {
     
     border: 0px;
     border-radius: 8px;
-
-
 }
 
 
@@ -147,16 +145,16 @@ form > button {
     background-color: white;
 
     border: 1px solid #5A92F3;
-    border-radius: 7px;
+    border-radius: 5px;
+
+    cursor: pointer;
 }
 
 form > button:hover {
-    background-color: #649dff;
+    background-color: #446fb9;
     color: white;
 }
 
 button::after {
     content: " \002709";
 }
-
-
